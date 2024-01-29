@@ -1,5 +1,7 @@
+package com.labwork1;
+
 /**
- * Primitive class implementing the ImageManipulation interface
+ * Primitive class implementing the com.labwork1.ImageManipulation interface
  */
 public class PrimitiveManipulation implements ImageManipulation {
     /**
@@ -8,7 +10,7 @@ public class PrimitiveManipulation implements ImageManipulation {
     private String fileName;
 
     /**
-     * Constructor for PrimitiveManipulation
+     * Constructor for com.labwork1.PrimitiveManipulation
      * @param fileName The name of the file with the image
      */
     public PrimitiveManipulation(String fileName) {

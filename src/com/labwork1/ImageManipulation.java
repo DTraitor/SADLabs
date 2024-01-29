@@ -1,3 +1,5 @@
+package com.labwork1;
+
 /**
  * Interface for different image manipulations
  */

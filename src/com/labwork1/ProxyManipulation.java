@@ -1,9 +1,11 @@
+package com.labwork1;
+
 /**
- * Class implementing the Proxy design pattern for ImageManipulation
+ * Class implementing the Proxy design pattern for com.labwork1.ImageManipulation
  */
 public class ProxyManipulation implements ImageManipulation{
     /**
-     * The ImageManipulation object to decorate.
+     * The com.labwork1.ImageManipulation object to decorate.
      * This is only created when needed.
      */
     private ImageManipulation imageManipulation;
@@ -13,7 +15,7 @@ public class ProxyManipulation implements ImageManipulation{
     private String fileName;
 
     /**
-     * Constructor for ProxyManipulation
+     * Constructor for com.labwork1.ProxyManipulation
      * @param fileName The name of the file with the image
      */
     public ProxyManipulation(String fileName) {
