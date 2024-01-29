@@ -15,7 +15,7 @@ public class ProxyManipulation implements ImageManipulation{
     private String fileName;
 
     /**
-     * Constructor for com.labwork1.ProxyManipulation
+     * Constructor for ProxyManipulation
      * @param fileName The name of the file with the image
      */
     public ProxyManipulation(String fileName) {

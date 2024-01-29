@@ -5,7 +5,7 @@ package com.labwork1;
  */
 public class FrameDecorator extends ManipulationDecorator {
     /**
-     * Constructor for com.labwork1.FrameDecorator
+     * Constructor FrameDecorator
      * @param imageManipulation The ImageManipulation object to decorate
      */
     public FrameDecorator(ImageManipulation imageManipulation) {

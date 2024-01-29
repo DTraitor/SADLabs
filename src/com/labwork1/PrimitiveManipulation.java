@@ -10,7 +10,7 @@ public class PrimitiveManipulation implements ImageManipulation {
     private String fileName;
 
     /**
-     * Constructor for com.labwork1.PrimitiveManipulation
+     * Constructor for PrimitiveManipulation
      * @param fileName The name of the file with the image
      */
     public PrimitiveManipulation(String fileName) {

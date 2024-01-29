@@ -10,7 +10,7 @@ public abstract class ManipulationDecorator implements ImageManipulation {
     protected ImageManipulation imageManipulation;
 
     /**
-     * Constructor for com.labwork1.ManipulationDecorator
+     * Constructor for ManipulationDecorator
      * @param imageManipulation The ImageManipulation object to decorate
      */
     public ManipulationDecorator(ImageManipulation imageManipulation) {
