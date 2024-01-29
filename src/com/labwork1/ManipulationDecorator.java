@@ -5,13 +5,13 @@ package com.labwork1;
  */
 public abstract class ManipulationDecorator implements ImageManipulation {
     /**
-     * The com.labwork1.ImageManipulation object to decorate
+     * The ImageManipulation object to decorate
      */
     protected ImageManipulation imageManipulation;
 
     /**
      * Constructor for com.labwork1.ManipulationDecorator
-     * @param imageManipulation The com.labwork1.ImageManipulation object to decorate
+     * @param imageManipulation The ImageManipulation object to decorate
      */
     public ManipulationDecorator(ImageManipulation imageManipulation) {
         this.imageManipulation = imageManipulation;

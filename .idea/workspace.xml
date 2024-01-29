@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="\n">
+    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Move the files">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/CompositeManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/CompositeManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706460739645</updated>
       <workItem from="1706460740718" duration="8273000" />
-      <workItem from="1706515973246" duration="1924000" />
+      <workItem from="1706515973246" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -117,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706517742221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Move the files">
+      <option name="closed" value="true" />
+      <created>1706519361218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706519361218</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +154,7 @@
     <MESSAGE value="License" />
     <MESSAGE value="Gitignore" />
     <MESSAGE value="\n" />
-    <option name="LAST_COMMIT_MESSAGE" value="\n" />
+    <MESSAGE value="Move the files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move the files" />
   </component>
 </project>

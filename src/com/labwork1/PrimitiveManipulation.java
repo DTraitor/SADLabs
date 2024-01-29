@@ -1,7 +1,7 @@
 package com.labwork1;
 
 /**
- * Primitive class implementing the com.labwork1.ImageManipulation interface
+ * Primitive class implementing the ImageManipulation interface
  */
 public class PrimitiveManipulation implements ImageManipulation {
     /**

@@ -1,11 +1,11 @@
 package com.labwork1;
 
 /**
- * Class implementing the Proxy design pattern for com.labwork1.ImageManipulation
+ * Class implementing the Proxy design pattern for ImageManipulation
  */
 public class ProxyManipulation implements ImageManipulation{
     /**
-     * The com.labwork1.ImageManipulation object to decorate.
+     * The ImageManipulation object to decorate.
      * This is only created when needed.
      */
     private ImageManipulation imageManipulation;

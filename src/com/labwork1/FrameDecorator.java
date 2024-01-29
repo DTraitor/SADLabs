@@ -1,12 +1,12 @@
 package com.labwork1;
 
 /**
- * Class implementing the Decorator design pattern for com.labwork1.ImageManipulation
+ * Class implementing the Decorator design pattern for ImageManipulation
  */
 public class FrameDecorator extends ManipulationDecorator {
     /**
      * Constructor for com.labwork1.FrameDecorator
-     * @param imageManipulation The com.labwork1.ImageManipulation object to decorate
+     * @param imageManipulation The ImageManipulation object to decorate
      */
     public FrameDecorator(ImageManipulation imageManipulation) {
         super(imageManipulation);
