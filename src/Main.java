@@ -8,14 +8,14 @@ public class Main {
         imageManipulation.getPointColour(50, 50);
 
         // Decorator
-        System.out.println("Decorator pattern:");
+        System.out.println("\nDecorator pattern:");
         FrameDecorator frameDecorator = new FrameDecorator(imageManipulation);
         frameDecorator.addFrame("red");
         frameDecorator.resize(120, 120);
         frameDecorator.getPointColour(60, 60);
 
         // Composite
-        System.out.println("Composite pattern:");
+        System.out.println("\nComposite pattern:");
         CompositeManipulation compositeManipulation = new CompositeManipulation();
         compositeManipulation.Add(frameDecorator);
         compositeManipulation.Add(new ProxyManipulation("image2.jpg"));
