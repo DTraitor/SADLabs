@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Fix the docs">
+      <change afterPath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/CompositeManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ImageManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lab11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,26 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lab11",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/dev/SDPLabs/src/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab12&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/dev/SDPLabs/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,6 +87,9 @@
       <updated>1706460739645</updated>
       <workItem from="1706460740718" duration="8273000" />
       <workItem from="1706515973246" duration="2886000" />
+      <workItem from="1708183228624" duration="19000" />
+      <workItem from="1708281191580" duration="1813000" />
+      <workItem from="1708900597554" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -148,7 +158,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lab11" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -163,5 +185,16 @@
     <MESSAGE value="Move the files" />
     <MESSAGE value="Fix the docs" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix the docs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/labwork2/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
