@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Fix the docs">
-      <change afterPath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" afterDir="false" />
+    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Whatever">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/CompositeManipulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/FrameDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ImageManipulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ManipulationDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/PrimitiveManipulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork1/ProxyManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDPLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDPLabs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,8 @@
       <workItem from="1706515973246" duration="2886000" />
       <workItem from="1708183228624" duration="19000" />
       <workItem from="1708281191580" duration="1813000" />
-      <workItem from="1708900597554" duration="4123000" />
+      <workItem from="1708900597554" duration="4339000" />
+      <workItem from="1708906321550" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -147,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706520958820</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Whatever">
+      <option name="closed" value="true" />
+      <created>1708906062396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708906062396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,17 +188,7 @@
     <MESSAGE value="\n" />
     <MESSAGE value="Move the files" />
     <MESSAGE value="Fix the docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the docs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/labwork2/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Whatever" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whatever" />
   </component>
 </project>
