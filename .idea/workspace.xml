@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Whatever">
+      <change afterPath="$PROJECT_DIR$/src/com/labwork3/LinList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDPLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDPLabs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab11" />
+        <entry key="$PROJECT_DIR$" value="lab12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab12&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/dev/SDPLabs/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "lab13",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/dev/SDPLabs/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
