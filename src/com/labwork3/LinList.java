@@ -47,6 +47,10 @@ public class LinList implements Iterable<Integer> {
         return new LinListIterator();
     }
 
+    /**
+     * Create a sorted iterator
+     * @return A sorted iterator
+     */
     public Iterator<Integer> sortedIterator() {
         return new SortedLinListIterator();
     }
@@ -70,6 +74,9 @@ public class LinList implements Iterable<Integer> {
         }
     }
 
+    /**
+     * A sorted iterator for the linked list
+     */
     private class SortedLinListIterator implements Iterator<Integer> {
         final private List<Node> usedNodes = new java.util.ArrayList<>();
         private Node start = head;

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="sorted iterator">
       <change beforePath="$PROJECT_DIR$/src/com/labwork3/LinList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork3/LinList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <workItem from="1708900597554" duration="4339000" />
       <workItem from="1708906321550" duration="509000" />
       <workItem from="1710107708923" duration="29000" />
-      <workItem from="1710150794024" duration="1800000" />
+      <workItem from="1710150794024" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -159,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710107640132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sorted iterator">
+      <option name="closed" value="true" />
+      <created>1710152636778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710152636778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +204,7 @@
     <MESSAGE value="Fix the docs" />
     <MESSAGE value="Whatever" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="sorted iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorted iterator" />
   </component>
 </project>
