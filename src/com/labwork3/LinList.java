@@ -1,6 +1,7 @@
 package com.labwork3;
 
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * A simple linked list
@@ -46,6 +47,10 @@ public class LinList implements Iterable<Integer> {
         return new LinListIterator();
     }
 
+    public Iterator<Integer> sortedIterator() {
+        return new SortedLinListIterator();
+    }
+
     /**
      * An iterator for the linked list
      */
@@ -62,6 +67,35 @@ public class LinList implements Iterable<Integer> {
             int data = current.data;
             current = current.next;
             return data;
+        }
+    }
+
+    private class SortedLinListIterator implements Iterator<Integer> {
+        final private List<Node> usedNodes = new java.util.ArrayList<>();
+        private Node start = head;
+
+        @Override
+        public boolean hasNext() {
+            return start != null;
+        }
+
+        @Override
+        public Integer next() {
+            Node smallest = start;
+            Node current = start;
+            while (current != null) {
+                if (current.data < smallest.data && !usedNodes.contains(current)) {
+                    smallest = current;
+                }
+                current = current.next;
+            }
+            usedNodes.add(smallest);
+            if (smallest == start){
+                while (usedNodes.contains(start)){
+                    start = start.next;
+                }
+            }
+            return smallest.data;
         }
     }
 }
