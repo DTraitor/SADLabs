@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class IntArray {
     public final int[] array;
-    public IntSorter sorter;
+    private IntSorter sorter;
 
     /**
      * Constructor
@@ -27,6 +27,10 @@ public class IntArray {
             throw new IllegalStateException("No sorting algorithm provided");
         }
         sorter.sort(array);
+    }
+
+    public void setSorter(IntSorter sorter) {
+        this.sorter = sorter;
     }
 
     /**

@@ -14,11 +14,11 @@ public class Main {
         IntArray intArray = new IntArray(new int[]{3, 2, 1, 5, 6, 4});
         System.out.println("Original array: " + intArray);
 
-        intArray.sorter = new SortAsc();
+        intArray.setSorter(new SortAsc());
         intArray.sort();
         System.out.println("Sorted array (ascending): " + intArray);
 
-        intArray.sorter = new SortDesc();
+        intArray.setSorter(new SortDesc());
         intArray.sort();
         System.out.println("Sorted array (descending): " + intArray);
     }
