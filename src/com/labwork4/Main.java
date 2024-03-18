@@ -14,30 +14,12 @@ public class Main {
         IntArray intArray = new IntArray(new int[]{3, 2, 1, 5, 6, 4});
         System.out.println("Original array: " + intArray);
 
-        intArray.sort(array -> {
-            for (int i = 0; i < array.length; i++) {
-                for (int j = 0; j < array.length - 1; j++) {
-                    if (array[j] > array[j + 1]) {
-                        int temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
-                    }
-                }
-            }
-        });
+        intArray.sorter = new SortAsc();
+        intArray.sort();
         System.out.println("Sorted array (ascending): " + intArray);
 
-        intArray.sort(array -> {
-            for (int i = 0; i < array.length; i++) {
-                for (int j = 0; j < array.length - 1; j++) {
-                    if (array[j] < array[j + 1]) {
-                        int temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
-                    }
-                }
-            }
-        });
+        intArray.sorter = new SortDesc();
+        intArray.sort();
         System.out.println("Sorted array (descending): " + intArray);
     }
 }

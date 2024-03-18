@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="sorted iterator">
-      <change afterPath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/labwork4/SortAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/labwork4/SortDesc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/CustomString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Glyph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/GlyphObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +88,7 @@
       <workItem from="1708906321550" duration="509000" />
       <workItem from="1710107708923" duration="29000" />
       <workItem from="1710150794024" duration="1994000" />
+      <workItem from="1710750176898" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
