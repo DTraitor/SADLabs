@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Sorting">
+    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Settter">
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/CourierDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/IDeliveryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/SelfPickup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/observer/IObserveSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/DeliveredState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/IOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/PreparingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/ProcessingState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/labwork4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/SortAsc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/labwork4/SortDesc.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +34,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab13" />
+        <entry key="$PROJECT_DIR$" value="lab14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "lab14",
+    "git-widget-placeholder": "mcw1",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,7 +103,7 @@
       <workItem from="1708906321550" duration="509000" />
       <workItem from="1710107708923" duration="29000" />
       <workItem from="1710150794024" duration="1994000" />
-      <workItem from="1710750176898" duration="2065000" />
+      <workItem from="1710750176898" duration="7421000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -176,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710751287931</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Settter">
+      <option name="closed" value="true" />
+      <created>1710752302676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710752302676</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +242,7 @@
     <MESSAGE value="done" />
     <MESSAGE value="sorted iterator" />
     <MESSAGE value="Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting" />
+    <MESSAGE value="Settter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Settter" />
   </component>
 </project>
