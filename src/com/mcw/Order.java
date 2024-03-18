@@ -34,6 +34,7 @@ public class Order implements IObserveSubject {
     }
 
     public void progressState() {
-        state.updateState();
+        state = state.updateState();
+        notifyObservers("Order is " + state);
     }
 }

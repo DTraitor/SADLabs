@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="Settter">
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/CourierDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/IDeliveryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/delivery/SelfPickup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/observer/IObserveSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/observer/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/DeliveredState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/IOrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/PreparingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcw/states/ProcessingState.java" afterDir="false" />
+    <list default="true" id="2fd96853-216f-4390-8246-6950cf57bb2b" name="Changes" comment="delivered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/IntArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/SortAsc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/labwork4/SortDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/Kitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/states/DeliveredState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/states/DeliveredState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/states/PreparingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/states/PreparingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcw/states/ProcessingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcw/states/ProcessingState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +90,7 @@
       <workItem from="1708906321550" duration="509000" />
       <workItem from="1710107708923" duration="29000" />
       <workItem from="1710150794024" duration="1994000" />
-      <workItem from="1710750176898" duration="7421000" />
+      <workItem from="1710750176898" duration="7641000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -201,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710752302676</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tons of stuff">
+      <option name="closed" value="true" />
+      <created>1710761390807</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710761390807</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +238,8 @@
     <MESSAGE value="sorted iterator" />
     <MESSAGE value="Sorting" />
     <MESSAGE value="Settter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Settter" />
+    <MESSAGE value="Tons of stuff" />
+    <MESSAGE value="delivered" />
+    <option name="LAST_COMMIT_MESSAGE" value="delivered" />
   </component>
 </project>
